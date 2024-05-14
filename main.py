@@ -1,5 +1,8 @@
+from src.printer import Printer
+
+
 def main():
-    print("Hello World")
+    Printer().hello_world()
 
 if __name__ == "__main__":
     main()
